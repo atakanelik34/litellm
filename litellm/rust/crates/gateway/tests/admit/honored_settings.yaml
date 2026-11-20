@@ -16,6 +16,7 @@ config:
     routing_strategy: simple-shuffle
     enable_pre_call_checks: true
     num_retries: 1
+    optional_pre_call_checks: [enforce_model_rate_limits]
     redis_host: localhost
     redis_port: 6379
     redis_password: redis-key
